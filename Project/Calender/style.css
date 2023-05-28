@@ -1,0 +1,25 @@
+html {
+    background-color: olivedrab;
+}
+html {
+    font-size: 50px;
+}
+
+input#year {
+    font-size: 40px;
+}
+
+input#month {
+    font-size: 40px;
+}
+button {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+table {
+    font-size: 50px;
+}
