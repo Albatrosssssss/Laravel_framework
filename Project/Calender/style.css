@@ -6,11 +6,11 @@ html {
 }
 
 input#year {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 input#month {
-    font-size: 40px;
+    font-size: 30px;
 }
 button {
     font-size: 40px;
@@ -22,4 +22,17 @@ h2 {
 
 table {
     font-size: 50px;
+}
+table {
+    margin: auto;
+    padding: 10px;
+    border: solid black;
+    width: 1200px;
+    height: 800px;
+}
+body {
+    border: solid black;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
 }
