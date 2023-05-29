@@ -17,7 +17,7 @@ button {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 100px;
     padding-left: 500px;
     padding-top: 30px;
     font-size: 50px;
@@ -30,8 +30,8 @@ table {
     margin: auto;
     padding: 10px;
     border: solid black;
-    width: 100px;
-    height: 100px;
+    width: 600px;
+    height: 500px;
 }
 body {
     border: solid black;
@@ -44,4 +44,7 @@ body {
 }
 td {
     text-align: center;
+}
+tbody > tr {
+    text-align: center !important;
 }
