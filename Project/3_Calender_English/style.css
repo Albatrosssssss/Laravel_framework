@@ -1,0 +1,47 @@
+html {
+    background-color: olivedrab;
+}
+html {
+    font-size: 50px;
+}
+
+input#year {
+    font-size: 30px;
+}
+
+input#month {
+    font-size: 30px;
+}
+button {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 50px;
+    padding-left: 500px;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+table {
+    font-size: 10px;
+}
+table {
+    margin: auto;
+    padding: 10px;
+    border: solid black;
+    width: 100px;
+    height: 100px;
+}
+body {
+    border: solid black;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+.sadi {
+    text-align: center;
+}
+td {
+    text-align: center;
+}
