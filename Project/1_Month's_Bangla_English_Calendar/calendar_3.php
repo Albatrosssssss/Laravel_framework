@@ -1,5 +1,13 @@
 <?php
 
+function convertToBanglaNumber($number) {
+    $englishNumbers = array('0','1','2','3','4','5','6','7','8','9');
+    $banglaNumbers = array('০','১','২','৩','৪','৫','৬','৭','৮','৯');
+    
+    $banglaNumber = str_replace($englishNumbers, $banglaNumbers, $number);
+    return $banglaNumber;
+}
+$banglaNumber='১';
 // Initialige variable assign value from user input by post method 
 $year = $_POST['year'];
 // Initialige variable assign value from user input by post method
@@ -251,7 +259,9 @@ while ($day <= $numDays) { // 1 to total days
         
 
     }
-    echo "<td>$day-$bangla_month</td>";
+    $temp1=convertToBanglaNumber($bangla_month);
+
+    echo "<td><small style='font-size:10px;'font-name:'>$temp1</small> $day</td>";
     $day++;
     $firstDayOfWeek++;
 }
