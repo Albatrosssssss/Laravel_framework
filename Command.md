@@ -1,3 +1,5 @@
+composer create-project --prefer-dist laravel/laravel project1
+
 Php artisan serve - Run the application
 
 php artisan make:Controller Controller Name
