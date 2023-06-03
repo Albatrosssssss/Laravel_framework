@@ -1,5 +1,5 @@
 html {
-    background-color: olivedrab;
+    background-color: whitesmoke;
 }
 html {
     font-size: 50px;
@@ -58,6 +58,7 @@ h3 {
     text-align: justify;
     /* margin-right: 33px; */
     padding-left: 15px;
+    color: red;
 }
 h1 {
     /* padding: 0px; */
@@ -66,6 +67,7 @@ h1 {
     margin: -67px;
     margin-left: 30px;
     padding-right: 82px;
+    color: cornflowerblue;
 }
 .sadi {
     width: 1000px;
@@ -80,5 +82,13 @@ h1 {
     /* align-items: center; */
 }
 small {
-    color: brown;
+    color: red;
+}
+th#a {
+    color: red;
+}
+
+th#b {
+    color: red;
+
 }
