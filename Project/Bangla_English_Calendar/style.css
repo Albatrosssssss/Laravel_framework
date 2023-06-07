@@ -19,19 +19,25 @@ button {
 h2 {
     font-size: 100px;
     /* padding-left: 50px; */
-    padding-top: 30px;
+    position: fixed;
+    padding-top: 0px;
     font-size: 60px;
     text-align: center;
+    margin: 0;
+    padding-left: 370;
+    padding-top: 5px;
 }
 
 table {
     font-size: 50px;
 }
 table {
-    margin: auto;
-    padding: 10px;
+    /* margin: auto; */
+    padding: 0px;
     width: 1000px;
     height: 500px;
+    border-collapse: collapse;
+    margin: 0px;
 }
 body {
     /* border: solid black; */
@@ -59,36 +65,57 @@ h3 {
     /* margin-right: 33px; */
     padding-left: 15px;
     color: red;
+    padding-bottom: 0px;
 }
 h1 {
-    /* padding: 0px; */
+    /* padding: 1; */
+    margin-top: 0px;
     font-size: 30px;
     text-align: right;
-    margin: -67px;
-    margin-left: 30px;
-    padding-right: 82px;
+    margin: -85px;
+    /* margin-left: 25px; */
+    padding-right: 65px;
     color: cornflowerblue;
+    padding-right: 100px;
 }
 .sadi {
     width: 1000px;
+    padding-top: 0;
     height: 500px;
     /* text-align: center; */
 }
-.home {
-    /* display: inline-table; */
-    /* padding-left: 70px; */
-    /* display: flex; */
-    /* align-content: baseline; */
-    /* align-items: center; */
-}
+
 small {
     color: red;
 }
 th#a {
+    //
+    color: red;
+    /* border-block: black; */
+    border-block-color: black;
+    font: blac;
+    font-size: c;
+    font-size: red;
+    font: red;
     color: red;
 }
 
 th#b {
+    //
     color: red;
-
+    /* border: black; */
+    /* border-block: black; */
+    color: red;
+    color: r;
+}
+h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding-left: 750px;
+    margin: 0px;
+}
+h3#bangla_month_name {
+    margin: 0px;
+    padding-top: 100px;
 }
