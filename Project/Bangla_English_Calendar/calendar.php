@@ -113,9 +113,9 @@ $firstDayOfWeek = $date->format('w');
 // Fill in the calendar days
 echo "<tr >";
 
-for ($i = 0; $i < $firstDayOfWeek; $i++) {
+//Fill the previos days empty 
+for ($i = 1; $i <= $firstDayOfWeek; $i++) {
     echo "<td></td>";
-    //Fill the previos days empty 
     //var_dump($i);
     //int(0) int(1) int(2) int(3) int(4) int(5)
 }
@@ -357,6 +357,7 @@ while ($day <= $numDays) { // 1 to total days
     }
     $temp1 = convertToBanglaNumber($bangla_month);
     $temp2 = convertToBanglaNumber($arbi_month);
+    
     //For Friday and Saturday Color 
     $bangla_month_name = '';
     if ($temp1 > 1 && $day == 1) {
@@ -398,12 +399,13 @@ while ($day <= $numDays) { // 1 to total days
             echo "<h3 id='bangla_month_name'>  $bangla_month_name </h3>";
         }
     }
-    //$bangla_month_name_select = $bangla_month_name;
-    
 
-    echo "<td><small id='bangla'; style='font-size:20px;'>$temp1</small> $day</td>";
-
-    $bangla_month_name_select = $bangla_month_name;
+    if($firstDayOfWeek==5 || $firstDayOfWeek == 6){
+        echo "<td><small id='bangla'; style='font-size:20px;'>$temp1</small> <small id='red';>$day</small></td>";
+    }
+    else{
+        echo "<td><small id='bangla'; style='font-size:20px;'>$temp1  </small>$day</td>";
+    }
     $day++;
     $firstDayOfWeek++;
 }
